@@ -241,7 +241,7 @@ def build_message(facilitator: Person, backup: Person, off_people: List[Person])
         off_line = f"\nPeople marked off today: {off_mentions}"
 
     return (
-        f"Good morning team 👋\n\n"
+        f"@here Good morning team 👋\n\n"
         f"*Today's stand-up rota*\n"
         f"• Facilitator: {facilitator.mention}\n"
         f"• Backup: {backup.mention}\n"
